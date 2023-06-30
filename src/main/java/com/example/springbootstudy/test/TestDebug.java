@@ -1,9 +1,7 @@
 package com.example.springbootstudy.test;
 
 import lombok.extern.slf4j.Slf4j;
-import org.apache.catalina.User;
 
-import java.awt.geom.Area;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;

@@ -29,3 +29,19 @@ server:
   port: 8000
   ## 开启优雅停机，默认值：immediate 为立即关闭
   shutdown: graceful
+
+# 测试配置
+config-listen:
+  name: 大哥
+  nameList:
+    - 傻狍子
+    - 青丘
+    - 夏至
+  nameSet:
+    - 采采
+    - 诺诺
+    - 采采
+  nameIdList:
+    - 111
+    - 222222
+    - 33333

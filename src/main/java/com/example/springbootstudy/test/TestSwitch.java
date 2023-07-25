@@ -6,9 +6,9 @@ public class TestSwitch {
 
         long a = 0;
 
-        System.err.println(String.valueOf(Long.toString(a)));
+        System.err.println(Long.toString(a));
 
-        System.err.println(String.valueOf(a));
+        System.err.println(a);
     }
 
 }

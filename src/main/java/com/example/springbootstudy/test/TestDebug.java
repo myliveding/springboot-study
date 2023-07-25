@@ -1,8 +1,14 @@
 package com.example.springbootstudy.test;
 
+import java.util.HashMap;
+import java.util.Map;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.util.Base64Utils;
 
+import java.math.BigDecimal;
+import java.nio.charset.Charset;
 import java.util.Arrays;
+import java.util.Base64;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -127,13 +133,13 @@ public class TestDebug {
 
         //System.err.println(testForceReturn());
 
-        //System.err.println(testBack());
+        System.err.println(testBack());
 
         //testStream();
 
         //testOptional();
 
-        testThread();
+//        testThread();
 
     }
 }
